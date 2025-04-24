@@ -1,0 +1,140 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgba(230, 200, 155, 0.705);
+}
+
+h1 {
+  text-align: center;
+}
+
+header {
+  background-color: white;
+    color: rgb(0, 0, 0);
+    text-align: right;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between; 
+    border-bottom: 2px solid rgb(95, 68, 28);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px; /* Sesuaikan dengan ukuran logo */
+  padding-left: 50px;
+  
+}
+  
+nav {
+    align-items: center;
+    justify-content: flex-end;
+    display: flex;
+    gap: 30px;
+    padding: 10px 0;
+}
+  
+nav a {
+    color: #333;;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 50px;
+}
+  
+nav a:hover {
+  text-decoration: underline;
+  color: sienna;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin-left: 1em;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+section {
+  padding: 2em;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  max-width: 400px;
+  margin: auto;
+}
+
+.form-container {
+  border: 2px solid rgb(95, 68, 28); /* Warna ungu sesuai tema */
+  border-radius: 8px;
+  padding: 2em;
+  max-width: 500px;
+  margin: auto;
+  background-color: #f9f9f9; /* Supaya kelihatan beda dari background utama */
+}
+
+button {
+  background-color: rgb(95, 68, 28);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0.75em;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: rgb(68, 47, 16);
+}
+
+.footer-kontak {
+  background-color: rgb(95, 68, 28);
+  color: white;
+  padding: 32px;
+  font-size: 15px;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 250px;
+}
+
+
+.social-icons a {
+  margin-right: 8px;
+}
+
+.social-icons img {
+  width: 32px;
+  height: 32px;
+  background-color: white;
+  padding: 6px;
+  border-radius: 4px;
+}
+
